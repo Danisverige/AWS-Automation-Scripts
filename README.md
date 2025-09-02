@@ -1,44 +1,44 @@
-````markdown
-# 🚀 AWS-Automation-Scripts 🌩️
-Welcome to **AWS-Automation-Scripts** — your soon-to-be favorite toolbox for automating AWS tasks! 🎉  
-This repo is just getting started, so buckle up and stay tuned for more scripts and cool automation goodies coming your way! 🛠️✨  
+🚀 AWS-Automation-Scripts 🌩️
 
-## What’s in here?
-Right now, you’ll find some handy EC2 scripts to help you launch and clean up instances with ease.  
-More AWS magic is on the horizon! 🔮  
+Welcome to AWS-Automation-Scripts — your soon-to-be favorite toolbox for automating AWS tasks! 🎉
+This repo is just getting started, so buckle up and stay tuned for more scripts and cool automation goodies coming your way! 🛠️✨
 
-## Getting Started ⚡
+🔥 What’s in here?
 
-### 1. Clone the repo
-```bash
+Right now, you’ll find some handy EC2 scripts to help you launch and clean up instances with ease.
+More AWS magic is on the horizon! 🔮
+
+⚡ Getting Started
+1. Clone the repo
+
+Run these commands in your terminal:
+
 git clone git@github.com:Danisverige/AWS-Automation-Scripts.git
 cd AWS-Automation-Scripts
-````
 
-### 2. Set execute permissions on the scripts
+2. Set execute permissions on the scripts
 
-Before running any script, make sure to set the right permissions:
+Make the scripts executable by running:
 
-```bash
 chmod +x ec2/cleanup_ec2.sh
 chmod +x ec2/launch_ec2.sh
-```
 
-### 3. Run your scripts and automate away! 🚀
+3. Run your scripts and automate away! 🚀
 
-```bash
+Use these commands to run your scripts:
+
 ./ec2/launch_ec2.sh
 ./ec2/cleanup_ec2.sh
-```
 
-## How to contribute? 🤝
+🤝 How to contribute?
 
 Got ideas or scripts? Feel free to open issues or submit pull requests!
 This repo will grow with your help. 🌱
 
-Thanks for stopping by! Stay tuned for more AWS automation awesomeness! 💥✨
+Thanks for stopping by!
+Stay tuned for more AWS automation awesomeness! 💥✨
 
-*Happy scripting!* 😄👩‍💻👨‍💻
+Happy scripting! 😄👩‍💻👨‍💻
 
 
 
