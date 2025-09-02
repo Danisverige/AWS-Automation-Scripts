@@ -1,0 +1,49 @@
+# SSH keys — NEVER commit your private keys!
+*.pem
+*.key
+
+# AWS CLI local credentials and config
+.aws/credentials
+.aws/config
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+crash.log
+override.tf
+override.tf.json
+terraform.tfstate.lock.info
+
+# CloudFormation
+# Ignore packaged or generated templates if any
+*.packaged.yaml
+*.packaged.yml
+*.packaged.json
+
+# Ansible
+*.vault
+*.retry
+.ansible.cfg
+*.log
+
+# Environment variables
+.env
+
+# Python cache and logs (if using Python scripts)
+__pycache__/
+*.pyc
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Shell/temp files
+*.swp
+*.tmp
+
+# Node.js dependencies (if applicable)
+node_modules/
