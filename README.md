@@ -12,6 +12,12 @@ More AWS magic is on the horizon! 🔮
 
 ---
 
+## 🔥 Requirements?
+
+AWS CLI and credentials, jq (sudo apr install jq), Linux/Max environment
+
+---
+
 ## ⚡ Getting Started
 
 ### 1. Clone the repo  
